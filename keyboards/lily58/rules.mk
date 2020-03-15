@@ -31,7 +31,7 @@ RGBLIGHT_ENABLE = no       # Enable WS2812 RGB underlight.
 SLEEP_LED_ENABLE = no    # Breathing sleep LED during USB suspend
 
 CUSTOM_MATRIX = yes
-
+ENCODER_ENABLE = yes
 SRC += i2c.c
 SRC += serial.c
 SRC += ssd1306.c
